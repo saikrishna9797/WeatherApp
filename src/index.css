@@ -1,5 +1,20 @@
-body {
+
+
+/* *{
+
+ 
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+
   margin: 0;
+  padding: 0;
+} */
+
+
+body {
+
+  /* background-image: url('https://images.pexels.com/photos/14118904/pexels-photo-14118904.jpeg?auto=compress&cs=tinysrgb&w=400'); */
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +25,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App
+{
+
+  /* background: url(./images/pexels-bruno-scramgnon-585759.jpg) no-repeat center center/cover; */
+/* background: url('https://wallpapercave.com/dwp1x/wp6774809.jpg') no-repeat center center/cover; */
+background: url('https://i.pinimg.com/736x/8f/72/86/8f72866ea62ba4a9ac950774cd949420.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(0, 0, 0,0.4);
+  color: #fff;
+}
+
+.name
+{
+  color: rgb(255, 255, 255,1);
+  /* background-color: rgb(0, 0, 0,0.4); */
+}
+
+.container
+{
+  
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.topPortion
+{
+  font-size: x-large;
+  
+}
+
+.search
+{
+  padding: 4%;
+  /* border-radius: 15px; */
+  text-align: center;
+}
+
+input
+{
+  padding: 1%;
+  border: 1px solid rgb(0, 0, 0,0.4);
+  border-radius: 15px; 
+  background-color: rgb(0, 0, 0,0.4);
+  color: #fff;
+}
+::placeholder
+{
+  color: #fff;
+
+}
+.bottomPortion
+{
+  
+  /* min-width: 360px; */
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
 }
